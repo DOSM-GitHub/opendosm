@@ -1,0 +1,127 @@
+baseURL = "https://opendosm.netlify.app/"
+disableLanguages = []
+googleAnalytics = "G-ZVC3JDZRSZ"
+theme = "dot-hugo"
+title = "openDOSM"
+
+[Languages.en]
+copyright = "Copyright &copy; CTADR, DOSM 2021 by [Gethugothemes](https://gethugothemes.com/)"
+languageCode = "en-us"
+languageName = "En"
+weight = 1
+[[Languages.en.menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+[[Languages.en.menu.main]]
+name = "Faq"
+url = "faq"
+weight = 5
+[[Languages.en.menu.main]]
+name = "contact"
+url = "contact"
+weight = 6
+[[Languages.en.menu.main]]
+name = "tutorial"
+url = "tutorial"
+weight = 4
+[[Languages.en.menu.main]]
+name = "Python"
+parent = "tutorial"
+url = "tutorial/python/"
+weight = 1
+[[Languages.en.menu.main]]
+name = "R"
+parent = "tutorial"
+url = "tutorial/R"
+weight = 2
+[[Languages.en.menu.main]]
+name = "API-Python"
+parent = "tutorial"
+url = "tutorial/api-python/"
+weight = 3
+
+[[Languages.en.menu.main]]
+name = "about-us"
+url = "about-us"
+weight = 2
+
+[[Languages.en.menu.main]]
+hasChildren = true
+name = "subjects"
+weight = 3
+[[Languages.en.menu.main]]
+name = "Agriculture"
+parent = "subjects"
+url = "agriculture/agriculture/"
+weight = 1
+[[Languages.en.menu.main]]
+name = "Indices"
+parent = "subjects"
+url = "indices/indices"
+weight = 2
+[[Languages.en.menu.main]]
+name = "Labour Market"
+parent = "subjects"
+url = "lmarket/labour-market"
+weight = 3
+[[Languages.en.menu.main]]
+name = "National Accounts"
+parent = "subjects"
+url = "naccount/national-accounts"
+weight = 4
+[[Languages.en.menu.main]]
+name = "Population"
+parent = "subjects"
+url = "population/population"
+weight = 5
+[[Languages.en.menu.main]]
+name = "Others"
+parent = "subjects"
+url = "others/others"
+weight = 6
+[Languages.en.params.banner]
+bg_image = "https://raw.githubusercontent.com/DOSM-GitHub/opendosm/master/exampleSite/static/images/banner.jpg"
+placeholder = "Find your best data source as you wish.."
+subtitle = "Open Data, Open Potential - Bringing the national open data community together."
+title = "Malaysia Open Data Ocean"
+[Languages.en.params.cta]
+content = ""
+enable = true
+title = "Didn't find any dataset related to your search?"
+[Languages.en.params.cta.button]
+enable = true
+label = "contact us"
+link = "contact"
+[markup.goldmark.renderer]
+unsafe = true
+[params]
+author = "Themefisher"
+body_color = "#f9f9f9"
+contact_form_action = "https://formspree.io/f/mvolryaa"
+description = "openDOSM | Malaysia Open Data Ocean"
+font_family = "lato"
+image = "https://github.com/DOSM-GitHub/opendosm/blob/master/images/LogoDesign-OpenDOSM.png"
+light_color = "#f8f9fa"
+logo = ""
+logo_white = ""
+primary_color = "#02007e"
+text_color = "#636363"
+text_color_dark = "#242738"
+white_color = "#ffffff"
+[[params.social]]
+icon = "ti-facebook"
+link = "https://www.facebook.com/CoreTeamBDA"
+name = "Facebook"
+[[params.social]]
+icon = "ti-twitter-alt"
+link = "https://twitter.com/coreteambda"
+name = "Twitter"
+[[params.social]]
+icon = "ti-github"
+link = "https://github.com/DOSM-GitHub/opendosm"
+name = "Github"
+[[params.social]]
+icon = "ti-linkedin"
+link = "#"
+name = "Linkedin"
