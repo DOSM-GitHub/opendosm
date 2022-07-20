@@ -40,7 +40,7 @@ Alternatively , you can look into the data eCatalog by accessing through: <br>
 <td>Apples</td>
 <td>A small, somewhat round ...</td>
 <td>Fruit</td>
-<td>Fuji</td>
+<td>Fuji <a><button name="button" style = "color: red" onclick="https://www.w3schools.com/CPP/cpp_math.asp">`cmath`on w3schools</button></a></td>
 </tr>
 <tr>
 <td>Bananas</td>
