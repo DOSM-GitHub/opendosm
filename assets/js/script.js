@@ -1,3 +1,7 @@
+$(document).ready(function () {
+  $("#my-table > table").DataTable();
+});
+
 (function ($) {
   'use strict';
 
