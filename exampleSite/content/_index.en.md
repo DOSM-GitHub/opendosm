@@ -14,12 +14,8 @@ Alternatively , you can look into the data eCatalog by accessing through: <br>
 
 <div data-type="AwesomeTableView" data-filters="false" data-viewID="-N7O66axofbp0vkpBgAN"></div>
 
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - Datatables markdown demo</title>
-  <link rel='stylesheet' href='https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css'><link rel="stylesheet" href="./style.css">
+<link rel='stylesheet' href='https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css'><link rel="stylesheet" href="./style.css">
 
-</head>
 <body>
 <!-- partial:index.partial.html -->
 <h1>Datatables Markdown Demo</h1>
@@ -40,7 +36,7 @@ Alternatively , you can look into the data eCatalog by accessing through: <br>
 <td>Apples</td>
 <td>A small, somewhat round ...</td>
 <td>Fruit</td>
-<td>Fuji <a><button name="button" style = "color: red" onclick="https://www.w3schools.com/CPP/cpp_math.asp">`cmath`on w3schools</button></a></td>
+<td>Fuji <a><button name="button" style = "color: red" onclick="https://www.w3schools.com/CPP/cpp_math.asp" target="_blank">`cmath`on w3schools</button></a></td>
 </tr>
 <tr>
 <td>Bananas</td>
@@ -52,7 +48,7 @@ Alternatively , you can look into the data eCatalog by accessing through: <br>
 <td>Kiwis</td>
 <td>A small, hairy-skinned sweet ...</td>
 <td>Fruit</td>
-<td>Golden <button name="button" style = "color: red" onclick="http://www.google.com">Dataset</button> <button name="button" style = "color: blue" onclick="http://www.yahoo.com">Table</button></td>
+<td>Golden <a><button name="button" style = "color: red" onclick="http://www.google.com" target="_blank">Dataset</button></a> <a><button name="button" style = "color: blue" onclick="http://www.yahoo.com" target="_blank">Table</button></a></td>
 </tr>
 <tr>
 <td>Oranges</td>
