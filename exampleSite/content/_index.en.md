@@ -20,43 +20,16 @@ Alternatively , you can look into the data eCatalog by accessing through: <br>
 <!-- partial:index.partial.html -->
 <br>
 <div id="my-table">
+
 <!-- The pre-processor for this pen is set to Markdown   -->
-<table>
-<thead>
-<tr>
-<th>Food</th>
-<th>Description</th>
-<th>Category</th>
-<th>Sample type</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Apples</td>
-<td>A small, somewhat round ...</td>
-<td>Fruit</td>
-<td>Fuji <a><button name="button" style = "color: red" onclick="https://www.w3schools.com/CPP/cpp_math.asp" target="_blank">`cmath`on w3schools</button></a></td>
-</tr>
-<tr>
-<td>Bananas</td>
-<td>A long and curved, often-yellow ...</td>
-<td>Fruit</td>
-<td>Snow</td>
-</tr>
-<tr>
-<td>Kiwis</td>
-<td>A small, hairy-skinned sweet ...</td>
-<td>Fruit</td>
-<td>Golden <a><button name="button" style = "color: red" onclick="http://www.google.com" target="_blank">Dataset</button></a> <a><button name="button" style = "color: blue" onclick="http://www.yahoo.com" target="_blank">Table</button></a></td>
-</tr>
-<tr>
-<td>Oranges</td>
-<td>A spherical, orange-colored sweet ...</td>
-<td>Fruit</td>
-<td>Navel</td>
-</tr>
-</tbody>
-</table>
+
+| Food    | Description                           | Category | Sample type |
+| ------- | ------------------------------------- | -------- | ----------- |
+| Apples  | A small, somewhat round ...           | Fruit    | Fuji      |
+| Bananas | A long and curved, often-yellow ...   | Fruit    | Snow <button onclick="window.location.href='https://bing.com';">Click</button>       |
+| Kiwis   | A small, hairy-skinned sweet ...      | Fruit    | Golden     |
+| Oranges | A spherical, orange-colored sweet ... | Fruit    | Navel <a><button name="button" style = "color: red" onclick="window.location.href='https://google.com';" target="_blank">Dataset</button></a> <a><button name="button" style = "color: blue" onclick="window.location.href='https://yahoo.com';" target="_blank">Table</button></a>       |
+
 </div>
 <!-- partial -->
   <script src='https://code.jquery.com/jquery-3.5.1.js'></script>
