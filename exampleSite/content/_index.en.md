@@ -18,7 +18,6 @@ Alternatively , you can look into the data eCatalog by accessing through: <br>
 
 <body>
 <!-- partial:index.partial.html -->
-<h1>Datatables Markdown Demo</h1>
 <br>
 <div id="my-table">
 <!-- The pre-processor for this pen is set to Markdown   -->
