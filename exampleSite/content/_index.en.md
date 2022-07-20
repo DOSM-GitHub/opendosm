@@ -46,13 +46,13 @@ Alternatively , you can look into the data eCatalog by accessing through: <br>
 <td>Bananas</td>
 <td>A long and curved, often-yellow ...</td>
 <td>Fruit</td>
-<td>Snow</td>
+<td>Snow [button url="http://www.google.com"]</td>
 </tr>
 <tr>
 <td>Kiwis</td>
 <td>A small, hairy-skinned sweet ...</td>
 <td>Fruit</td>
-<td>Golden</td>
+<td>Golden <button name="button" onclick="http://www.google.com">Dataset</button> <button name="button" onclick="http://www.google.com">Table</button></td>
 </tr>
 <tr>
 <td>Oranges</td>
